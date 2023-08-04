@@ -1,0 +1,579 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+  font-family: gilroy;
+  src: url(assets/fonts/Gilroy-ExtraBold.otf);
+}
+
+body {
+  font-family: gilroy;
+  background-color: #e4e4e4;
+}
+
+::root {
+	--primary-color: #e4e4e4;
+}
+
+/* Navigation Bar Goes Here */
+nav {
+	margin: 15px 0;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1174px;
+	margin: auto;
+}
+
+nav ul li {
+	padding: 12px 25px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+
+nav ul li a {
+	border-bottom: 2px solid black;
+}
+
+nav ul li:last-child {
+	border: 2px solid black;
+	border-radius: 25px;
+}
+
+nav ul li:last-child a {
+	border-bottom: 0;
+}
+
+nav ul li:first-child a {
+	border-bottom: 0;
+	font-size: 24px;
+	font-weight: 900;
+}
+
+nav ul li:first-child {
+	margin-right: auto;
+} 
+
+@media screen and (max-width: 1174px) {
+	nav {
+		display: none;
+	}
+	nav ul {
+		width: 100%;
+	}
+}
+/* Navigation Bar Ends Here */
+
+
+/* Section Hero Goes Here */
+#hero {
+
+}
+
+#hero .container {
+	width: 1174px;
+	margin: auto;
+	background-color: #ffdf6e;
+	height: 450px;
+	border-radius: 35px;
+}
+
+#hero .container .parent {
+	padding: 50px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 100%;
+}
+
+#hero .container .parent .child h1 {
+	color: black;
+	font-size: 60px;
+	font-weight: 900;
+}
+
+#hero .container .parent .child .btn-wrapper {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#hero .container .parent .child .btn-wrapper a {
+	border: 2px solid black;
+	background: black;
+	color: white;
+	text-decoration: none;
+	padding: 15px 25px;
+	margin-right: 25px;
+	border-radius: 8px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.d-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: 100%;
+	flex-direction: column;
+}
+
+#hero .container .parent .child .btn-wrapper a.bg-white {
+	background: white;
+	color: black;
+	border: 2px solid white;
+}
+
+@media screen and (max-width: 1174px) {
+	#hero {
+		padding: 15px;
+	}
+
+	#hero .container {
+		width: 100%;
+		height: 100%;
+	}
+
+	#hero .container .parent .child h1 {
+		font-size: 35px;
+		margin-bottom: 25px;
+	}
+
+	#hero .container .parent .child .btn-wrapper a {
+		font-size: 14px;
+		padding: 15px 15px;
+		margin-right: 15px;
+	}
+}
+/* Section Hero Ends Here */
+
+/* Section About Goes Here */
+#about {
+	margin: 25px 0;
+}
+
+#about .container {
+	width: 1174px;
+	margin: auto;
+}
+
+#about .container .parent {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+#about .container .parent .child img {
+	width: 100%;
+	border-radius: 25px;
+}
+
+#about .container .parent .child-text {
+	padding: 25px;
+} 
+
+#about .container .parent .child p {
+	margin-bottom: 35px;
+}
+
+#about .container .parent .child h1 {
+	padding: 20px 0;
+	font-size: 70px;
+	-webkit-text-stroke: 1px black;
+  	-webkit-text-fill-color: transparent;  
+  	width: 100%;
+    text-align: left;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#about .container .parent .child a {
+	border: 2px solid black;
+	background: transparent;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	padding: 15px 25px;
+	border-radius: 8px;
+}
+
+@media screen and (max-width: 1174px) {
+	#about {
+		padding: 15px;
+		margin: 0;
+	}
+
+	#about .container {
+		width: 100%;
+	}
+
+	#about .container .parent {
+		flex-wrap: wrap;
+	}
+
+	#about .container .parent .child p {
+		font-size: 18px;
+	}
+
+	#about .container .parent .child {
+		width: 100%;
+	}
+}
+/* Section About Ends Here */
+
+
+
+
+/* Section Features Goes Here */
+#features {
+	margin: 50px 0;
+}
+
+#features .container {
+	width: 1174px;
+	margin: auto;
+}
+
+#features .container .parent {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#features .container .parent .child {
+	border-radius: 50%;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	word-break: break-all;
+	word-wrap: break-word;
+	text-align: center;
+	padding: 25px;
+	height: 250px;
+	width: 250px;
+}
+
+#features .container .parent .child:last-child {
+	background: black;
+	color: white;
+}
+
+@media screen and (max-width: 1174px) {
+	#features {
+		padding: 15px;
+		margin: 0;
+	}
+
+	#features .container {
+		width: 100%;
+	}
+
+	#features .container .parent {
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	#features .container .parent .child {
+		width: calc(100% / 2.1);
+		margin: 25px 0;
+		border-radius: 15px;
+		padding: 25px;
+	}
+
+	#features .container .parent .child p {
+		font-size: 18px;
+	}
+}
+/* Section Features Ends Here */
+
+/* Section Courses Goes Here */
+#courses {
+
+}
+
+#courses .container {
+	width: 1174px;
+	margin: auto;
+	border: 1px solid black;
+	position: relative;
+	padding: 64px 83px 72px;
+	border-radius: 20px;
+}
+
+#courses .container:before {
+	position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 41px;
+    height: 41px;
+    background-image: linear-gradient(45deg,black 50%,#e4e4e4 50%,#e4e4e4 100%);
+    content: "";
+}
+
+#courses .container .parent {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;	
+	margin-bottom: 50px;
+}
+
+#courses .container .parent .child {
+	width: calc(100% / 2);
+}
+
+#courses .container .parent .child h1 {
+	font-size: 44px;
+	margin-bottom: 25px;
+}
+
+#courses .container .parent .child p {
+	margin-bottom: 25px;
+}
+
+#courses .container .parent .child img {
+	width: 100%;
+	text-align: center;
+}
+
+#courses .container .parent .child.d-flex {
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+}
+
+
+#courses .container .parent .child ul {
+  padding: 0;
+}
+
+#courses .container .parent .child li {
+  list-style: none;
+}
+
+#courses .container .parent .child main {
+  margin: 0 auto;
+}
+
+#courses .container .parent .child main h1 {
+  margin-bottom: 50px;
+}
+
+#courses .container .parent .child .wrapper {
+  position: relative;
+}
+#courses .container .parent .child .wrapper:before, #courses .container .parent .child .wrapper:after {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  content: "";
+  display: block;
+  width: 20px;
+  height: 100%;
+}
+/*#courses .container .parent .child .wrapper:before {
+  left: 0;
+  background: linear-gradient(90deg, #bebdbd, transparent);
+}
+#courses .container .parent .child .wrapper:after {
+  right: 0;
+  background: linear-gradient(-90deg, #bebdbd, transparent);
+}*/
+
+#courses .container .parent .child .items {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 0;
+  cursor: pointer;
+}
+#courses .container .parent .child .items.active {
+  cursor: grab;
+}
+
+#courses .container .parent .child .item {
+  display: inline-block;
+  margin-left: 20px;
+  user-select: none;
+  background: #ffdf6e;
+  width: 50%;
+  padding: 50px 15px;
+  border-radius: 15px;
+  color: #222;
+  font-size: 33px;
+  font-weight: bold;
+}
+#courses .container .parent .child .item:last-child {
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 500px) {
+  #courses .container .parent .child .item {
+    width: 33%;
+  }
+}
+@media screen and (min-width: 800px) {
+  #courses .container .parent .child .item {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #courses .container .parent .child .wrapper {
+    margin-left: -20px;
+  }
+
+  #courses .container .parent .child .item {
+    width: 20%;
+  }
+}
+
+#courses .container .parent .child.w-100 {
+	width: 100%;
+}
+
+.m-0 {
+	margin: 0!important;
+}
+
+#courses .container .parent.card-parent {
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#courses .container .parent.card-parent .child {
+	background-color: #ffdf6e;
+	border-radius: 15px;
+	width: calc(100% / 3.2);
+	padding: 25px;
+	margin: 15px 2px;
+}
+
+#courses .container .parent.card-parent .child i {
+	font-size: 54px;
+	margin-bottom: 15px;
+}
+
+#courses .container .parent.card-parent .child h3 {
+	font-size: 32px;
+	font-weight: 900;
+	margin-bottom: 15px;
+}
+
+#courses .container .parent.card-parent .child p {
+	color: #959595;
+}
+
+@media screen and (max-width: 1174px) {
+	#courses {
+		padding: 15px;
+	}
+	#courses .container,
+	#courses .container .parent .child {
+		width: 100%!important;
+	}
+
+	#courses .container .parent {
+		flex-wrap: wrap;
+	}
+
+	#courses .container {
+		padding: 15px;
+	}
+
+	#courses .container .parent .child h3 {
+		font-size: 14px;
+	}
+}
+/* Section Courses Ends Here */
+
+/* Footer Section Goes Here */
+footer {
+	background: black;
+	margin-top: 80px;
+}
+
+footer .container {
+	width: 1174px;
+	margin: auto;
+	padding: 50px 0;
+}
+
+footer .container .parent {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer .container .parent .child {
+	color: white;
+	width: calc(100% / 3.5);
+}
+
+footer .container .parent .child h1 {
+	color: #959595;
+	font-size: 24px;
+	margin-bottom: 12px;
+}
+
+footer .container .parent .child p {
+	font-size: 32px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer .container .parent {
+	margin-bottom: 50px;
+}
+
+footer .container .parent .child h2 {
+	font-size: 60px;
+}
+
+footer .container .parent .child form input,
+footer .container .parent .child form button  {
+	background: transparent;
+	border: 1px solid white;
+	outline: 0;
+	color: white;
+	padding: 15px 15px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+footer .container .parent .child form button {
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+@media screen and (max-width: 1174px) {
+	footer .container, footer .container .parent .child {
+		width: 100%!important;
+	}
+
+	footer .container .parent {
+		flex-wrap: wrap;
+	}
+
+	footer .container {
+		padding: 25px;
+	}
+}
+/* Footer Section Ends Here */
