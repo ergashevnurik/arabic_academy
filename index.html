@@ -5,6 +5,11 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
 </head>
 <body>
 
@@ -43,90 +48,113 @@
 	</nav>
 	<!-- Navbar Ends Here -->
 
-	<!-- Hero Section Goes Here -->
-	<section id="hero">
-		<div class="container">
-			<div class="parent">
-				<div class="child d-flex" data-aos="fade-up">
-					<h1>АКАДЕМИЯ <br> АРАБСКОГО <br> ЯЗЫКА</h1>
-					<div class="btn-wrapper">
-						<a href="">Подобрать Курс <i class="bx bx-chevron-right"></i></a>
-						<a href="" class="bg-white">Видео о школе <i class="bx bx-play"></i></a>
+	<!-- Mobile Navbar Goes Here -->
+	<aside>
+		<img src="assets/img/logo.png">
+		<ul class="panel-list">	
+			<li>
+				<a href="#courses-list">Курсы</a>
+			</li>
+			<li>
+				<a href="online_lessons.html">Онлайн уроки</a>
+			</li>
+			<li>
+				<a href="#student-list">Наши Студенты</a>
+			</li>
+			<li>
+				<a href="">Контакты</a>
+			</li>
+		</ul>
+		<button class="open-btn">
+			<i class='bx bx-menu'></i>
+		</button>
+	</aside>
+	<!-- Mobile Navbar Ends Here -->
+
+	<main id="bg-banner">
+		<!-- Hero Section Goes Here -->
+		<section id="hero">
+			<div class="container">
+				<div class="parent">
+					<div class="child d-flex" data-aos="fade-up">
+						<h1 data-aos="fade-up" data-aos-duration="100">АКАДЕМИЯ <br> АРАБСКОГО <br> ЯЗЫКА</h1>
+						<div class="btn-wrapper">
+							<a href="#courses">Подобрать Курс <i class="bx bx-chevron-right"></i></a>
+							<a href="" class="bg-white">Видео о школе <i class="bx bx-play"></i></a>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!-- Hero Section Ends Here -->
+		</section>
+		<!-- Hero Section Ends Here -->
 
-	<!-- About Section Goes Here -->
-	<section id="about">
-		<div class="container">
-			<div class="parent">
-				<div class="child" data-aos="fade-up" data-aos-duration="200">
-					<img src="https://tehnikum.school/images/smiling-girl.jpg">
-				</div>
-				<div class="child child-text" data-aos="fade-up" data-aos-duration="300">
-					<h1 class="title">Коротко О нас</h1>
-					<p>Мы не инфоцыгане — и не огромная онлайн-школа <br> Мы не сделаем вас миллиардерами и не научим быть <br> счастливыми —. Все, что мы умеем, — это хорошо обучать.</p>
-					<p>Мы не инфоцыгане — и не огромная онлайн-школа <br> Мы не сделаем вас миллиардерами и не научим быть <br> счастливыми —. Все, что мы умеем, — это хорошо обучать.</p>
-					<p>Мы не инфоцыгане — и не огромная онлайн-школа <br> Мы не сделаем вас миллиардерами и не научим быть <br> счастливыми —. Все, что мы умеем, — это хорошо обучать.</p>
-					<p>Мы не инфоцыгане — и не огромная онлайн-школа <br> Мы не сделаем вас миллиардерами и не научим быть <br> счастливыми —. Все, что мы умеем, — это хорошо обучать.</p>
-					<a href="">Узнай о нас больше <i class="bx bx-chevron-right"></i></a>
+		<!-- About Section Goes Here -->
+		<section id="about">
+			<div class="container">
+				<div class="parent">
+					<div class="child child-text">
+						<h1>ШАВКАТ <br> ЭГАМБЕРДИЕВ</h1>
+						<p>ОСНОВАТЕЛЬ УЧЕБНОГО ЦЕНТРА.</p>
+						<div class="box" data-aos="fade-up" data-aos-duration="100">
+							<h3><i class='bx bx-info-circle'></i>Выпустивший более, чем 2.500 учеников.</h3>
+						</div>
+						<div class="box" data-aos="fade-up" data-aos-duration="200">
+							<h3><i class='bx bx-info-circle'></i>Один из единственных учебных центров, в  котором проводится  обучение, по Египетской методике .</h3>
+						</div>
+						<div class="box" data-aos="fade-up" data-aos-duration="300">
+							<h3><i class='bx bx-info-circle'></i>100-процентное гарантированное образование</h3>
+						</div>
+						<a href="">Узнай о нас больше <i class="bx bx-chevron-right"></i></a>
+					</div>
+					<div class="child" data-aos="fade-up" data-aos-duration="200">
+						<img src="assets/img/banner.png">
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!-- About Section Ends Here -->
+		</section>
+		<!-- About Section Ends Here -->
+	</main>
 
 	<!-- Features Sections Goes Here -->
 	<section id="features">
 		<div class="container">
+			<h1 class="title">Наши Фишки</h1>
 			<div class="parent">
 				<div class="child" data-aos="flip-left" data-aos-duration="300">
-					<i class='bx bxs-castle'></i>
+					<img src="assets/img/icon-1.png">
 					<h1>Индивидуальный подход к каждому студенту</h1>
-					<p>Мы не инфоцыгане — и не огромная онлайн-школа</p>
 				</div>
 				<div class="child" data-aos="flip-left" data-aos-duration="300">
-					<i class='bx bxs-castle'></i>
-					<h1>Гибкий график занятий:</h1>
-					<p>Мы не инфоцыгане — и не огромная онлайн-школа</p>
+					<img src="assets/img/icon-2.png">
+					<h1>Гибкий график занятий</h1>
 				</div>
 				<div class="child" data-aos="flip-left" data-aos-duration="300">
-					<i class='bx bxs-castle'></i>
+					<img src="assets/img/icon-3.png">
 					<h1>Онлайн-курсы в реальном времени</h1>
-					<p>Мы не инфоцыгане — и не огромная онлайн-школа</p>
 				</div>
 				<div class="child" data-aos="flip-left" data-aos-duration="300">
-					<i class='bx bxs-castle'></i>
+					<img src="assets/img/icon-4.png">
 					<h1>Тестирование и отслеживание прогресса</h1>
-					<p>Мы не инфоцыгане — и не огромная онлайн-школа</p>
 				</div>
 				<div class="child" data-aos="flip-left" data-aos-duration="300">
-					<i class='bx bxs-castle'></i>
+					<img src="assets/img/icon-5.png">
 					<h1>Сертификация и карьерные возможности</h1>
-					<p>Мы не инфоцыгане — и не огромная онлайн-школа</p>
 				</div>
 				<div class="child" data-aos="flip-left" data-aos-duration="300">
-					<i class='bx bxs-castle'></i>
+					<img src="assets/img/icon-6.png">
 					<h1>Профессиональные преподаватели</h1>
-					<p>Мы не инфоцыгане — и не огромная онлайн-школа</p>
 				</div>
 				<div class="child" data-aos="flip-left" data-aos-duration="300">
-					<i class='bx bxs-castle'></i>
-					<h1>Современные технологии в обучении</h1>
-					<p>Мы не инфоцыгане — и не огромная онлайн-школа</p>
+					<img src="assets/img/icon-7.png">
+					<h1><!-- Современные технологии в обучении -->Уникальная методика обучения</h1>
 				</div>
 				<div class="child" data-aos="flip-left" data-aos-duration="300">
-					<i class='bx bxs-castle'></i>
+					<img src="assets/img/icon-8.png">
 					<h1>Культурные события и фестивали</h1>
-					<p>Мы не инфоцыгане — и не огромная онлайн-школа</p>
 				</div>
 				<div class="child" data-aos="flip-left" data-aos-duration="300">
-					<i class='bx bxs-castle'></i>
+					<img src="assets/img/icon-9.png">
 					<h1>Удобные локации</h1>
-					<p>Мы не инфоцыгане — и не огромная онлайн-школа</p>
 				</div>
 			</div>
 		</div>
@@ -135,55 +163,246 @@
 
 	<!-- Courses Section Goes Here -->
 	<section id="courses">
+		<h1 class="title">Наши Курсы</h1>
 		<div class="container no-border">
 			<div class="parent" data-aos="fade-up" data-aos-duration="100">
 				<div class="child">
-					<h1 class="title">Наши Курсы</h1>
+					
 				</div>
 			</div>
 		</div>
 		<div class="container">
-			<div class="parent first-parent" data-aos="fade-up" data-aos-duration="100">
+			<div class="parent first-parent collapsible" data-aos="fade-up" data-aos-duration="100">
 				<div class="child">
 					<h1>Арабский язык для Новичков</h1>
 				</div>
 				<div class="child">
-					<i class="bx bx-chevron-right"></i>
+					<!-- <i class="bx bx-chevron-right"></i> -->
 				</div>
+			</div>
+			<div class="content">
+				<p>Обучение на начальном арабском языке длится 4 месяца. 2 месяца арабские прилагательные и знаменатели и 2 месяца законы фонетики. Занятия проводятся 3 раза в неделю по 1-1:30 часа. Через 4 месяца вы сможете читать любые книги на арабском языке с правильным качеством и знаменателем. На уроки нужно просто принести тетрадку и ручку.</p>
 			</div>
 		</div>
 		<div class="container">
-			<div class="parent" data-aos="fade-up" data-aos-duration="100">
+			<div class="parent collapsible" data-aos="fade-up" data-aos-duration="100">
 				<div class="child">
 					<h1>Грамматика Арабского языка</h1>
 				</div>
 				<div class="child">
-					<i class="bx bx-chevron-right"></i>
+					<!-- <i class="bx bx-chevron-right"></i> -->
 				</div>
+			</div>
+			<div class="content">
+				<p>В Arab Academy после 4 месяцев базового образования есть курс грамматики для желающих говорить, и этот курс длится 8 месяцев. На курсе вы узнаете, как запоминать наиболее часто используемые слова на арабском языке, как их произносить, как делить на времена, как правильно использовать наречия и многое другое.</p>
 			</div>
 		</div>
 		<div class="container">
-			<div class="parent" data-aos="fade-up" data-aos-duration="100">
+			<div class="parent collapsible" data-aos="fade-up" data-aos-duration="100">
 				<div class="child">
 					<h1>Курсы для детей</h1>
 				</div>
 				<div class="child">
-					<i class="bx bx-chevron-right"></i>
+					<!-- <i class="bx bx-chevron-right"></i> -->
 				</div>
+			</div>
+			<div class="content">
+				<p>дети 3 месяца 3 раза в неделю по 3 часа Знаменатели арабских букв говорящий по-арабски перерыв на кофе правила этикета каллиграфия интересные игры для мозга</p>
 			</div>
 		</div>
 		<div class="container">
-			<div class="parent" data-aos="fade-up" data-aos-duration="100">
+			<div class="parent collapsible" data-aos="fade-up" data-aos-duration="100">
 				<div class="child">
-					<h1>Калиграфия</h1>
+					<h1>Каллиграфия</h1>
 				</div>
 				<div class="child">
-					<i class="bx bx-chevron-right"></i>
+					<!-- <i class="bx bx-chevron-right"></i> -->
 				</div>
+			</div>
+			<div class="content">
+				<p>Каллиграфия 4 месяца урок по написанию писем+художественная каллиграфия 2 раза в неделю по 1-1:30 часа</p>
+			</div>
+		</div>
+		<div class="container">
+			<div class="parent collapsible" data-aos="fade-up" data-aos-duration="100">
+				<div class="child">
+					<h1>Онлайн-Курсы</h1>
+				</div>
+				<div class="child">
+					<!-- <i class="bx bx-chevron-right"></i> -->
+				</div>
+			</div>
+			<div class="content">
+				<p>Онлайн-обучение: Arab Academy предлагает онлайн-обучение в общей сложности на 4 месяца. За 2 месяца вы познакомитесь с арабскими прилагательными и знаменателями и за 2 месяца с правилами фонетики. Занятия проходят в закрытом Telegram-канале. Вам разрешено просматривать и повторять уроки в течение 6 месяцев.
+				К дополнительной группе будет прикреплен помощник преподавателя, и два раза в неделю будет выделено время на проверку значений, знаменателей и прилагательных. ИншаАллах, любую арабскую книгу можно прочитать за 4 месяца.</p>
 			</div>
 		</div>
 	</section>
 	<!-- Courses Section Ends Here -->
+
+	<!-- Branches Section Goes Here -->
+	<section id="branches">
+		<div class="container">
+			<h1 class="title">Филиалы</h1>
+			<div class="parent">
+				<div class="child">
+					<h1 data-aos="fade-up" data-aos-duration="100">Наши Филиалы в городе Ташкент</h1>
+					<div class="icon-wrapper" data-aos="fade-up" data-aos-duration="100">
+						<i class='bx bx-map'></i>
+						<p>г.Ташкент, <br>Чиланзорский район, улица Домбрабад, <br>повар Мухлиса, 3 этаж</p>
+					</div>
+					<div class="icon-wrapper" data-aos="fade-up" data-aos-duration="100">
+						<i class='bx bx-map'></i>
+						<p>г.Ташкент, <br>Шайхонтохурский район, улица Лайлитугон, <br>бизнес центр M Tower, -1 этаж</p>
+					</div>
+				</div>
+				<div class="child" data-aos="fade-up" data-aos-duration="100">
+				  <!-- Swiper -->
+				  <div class="swiper mySwiper">
+				    <div class="swiper-wrapper">
+				      <div class="swiper-slide">
+				        <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+				      </div>
+				      <div class="swiper-slide">
+				        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+				      </div>
+				      <div class="swiper-slide">
+				        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+				      </div>
+				      <div class="swiper-slide">
+				        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+				      </div>
+				      <div class="swiper-slide">
+				        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+				      </div>
+				      <div class="swiper-slide">
+				        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+				      </div>
+				      <div class="swiper-slide">
+				        <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+				      </div>
+				      <div class="swiper-slide">
+				        <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+				      </div>
+				      <div class="swiper-slide">
+				        <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+				      </div>
+				    </div>
+				    <!-- <div class="swiper-pagination"></div> -->
+				  </div>
+				</div>	
+			</div>
+		</div>
+	</section>
+	<!-- Branches Section Ends Here -->
+
+	<!-- Frequently asked questions section goes here -->
+	<section id="faq">
+		<div class="container">
+			<h1 class="title">Часто Задаваемые Вопросы</h1>
+			<div class="parent">
+				<div class="child" data-aos="fade-up" data-aos-duration="100">
+					<i class='bx bx-question-mark'></i>
+					<h1>Сколько времени занимает изучение начального арабского языка?</h1>
+					<p>Обучение на начальном арабском языке длится 4 месяца. 2 месяца арабских прилагательных и знаменателей и еще 2 месяца законов фонетики.</p>
+				</div>
+				<div class="child">
+					
+				</div>
+			</div>
+			<div class="parent">
+				<div class="child">
+					
+				</div>
+				<div class="child" data-aos="fade-up" data-aos-duration="100">
+					<i class='bx bx-question-mark'></i>
+					<h1>Сколько времени нужно, чтобы говорить по-арабски?</h1>
+					<p>Учитывая, что арабский язык — один из самых сложных языков в мире, вам понадобится 8-9 месяцев, чтобы свободно и правильно говорить арабскими буквами.</p>
+				</div>
+			</div>
+			<div class="parent">
+				<div class="child" data-aos="fade-up" data-aos-duration="100">
+					<i class='bx bx-question-mark'></i>
+					<h1>Сколько раз в неделю и сколько часов?</h1>
+					<p>Занятия по элементарному арабскому языку в Arab Academy проводятся 3 дня в неделю с 1:00 до 1:30.</p>
+				</div>
+				<div class="child">
+					
+				</div>
+			</div>
+			<div class="parent">
+				<div class="child">
+					
+				</div>
+				<div class="child" data-aos="fade-up" data-aos-duration="100">
+					<i class='bx bx-question-mark'></i>
+					<h1>Какой уровень преподавателей?</h1>
+					<p>Все преподаватели Арабской академии имеют уровни преподавателей и преподавателей B2 и C1, сначала они достигают уровня помощника преподавателя, а затем преподавателя.</p>
+				</div>
+			</div>
+			<div class="parent">
+				<div class="child" data-aos="fade-up" data-aos-duration="100">
+					<i class='bx bx-question-mark'></i>
+					<h1>Что делать, если я по каким-то причинам не могу посещать занятия?</h1>
+					<p>Если вы не можете присутствовать по причинам Арабской академии и уведомите об этом администратора или учителя, вам будет назначен помощник преподавателя, который будет доставлять его на занятия, и эта услуга будет предоставляться нашим ученикам только до тех пор, пока мы будем уведомлены.</p>
+				</div>
+				<div class="child">
+					
+				</div>
+			</div>
+			<div class="parent">
+				<div class="child">
+					
+				</div>
+				<div class="child" data-aos="fade-up" data-aos-duration="100">
+					<i class='bx bx-question-mark'></i>
+					<h1>Во сколько начинаются занятия в Arab Academy?</h1>
+					<p>Занятия в Арабской академии длятся с 08:00 до 21:30.</p>
+				</div>
+			</div>
+			<div class="parent">
+				<div class="child" data-aos="fade-up" data-aos-duration="100">
+					<i class='bx bx-question-mark'></i>
+					<h1>Могу ли я учиться один?</h1>
+					<p>Конечно, в Арабской Академии студенты обучаются индивидуально, и делается это в то время, которое удобно Академии и студенту.</p>
+				</div>
+				<div class="child">
+					
+				</div>
+			</div>
+			<div class="parent">
+				<div class="child">
+					
+				</div>
+				<div class="child" data-aos="fade-up" data-aos-duration="100">
+					<i class='bx bx-question-mark'></i>
+					<h1>Сколько человек будет в одной группе?</h1>
+					<p>В Arab Academy 16 студентов обучаются в одной группе</p>
+				</div>
+			</div>
+			<div class="parent">
+				<div class="child" data-aos="fade-up" data-aos-duration="100">
+					<i class='bx bx-question-mark'></i>
+					<h1>Есть ли метро рядом с образовательным центром?</h1>
+					<p>Конечно, есть метро «Чорсу», от метро «Тинглик» 5-6 минут, а от метро 12-15 минут.</p>
+				</div>
+				<div class="child">
+					
+				</div>
+			</div>
+			<div class="parent">
+				<div class="child">
+					
+				</div>
+				<div class="child" data-aos="fade-up" data-aos-duration="100">
+					<i class='bx bx-question-mark'></i>
+					<h1>Как долго работает Арабская академия?</h1>
+					<p>Arab Academy — государственный лицензированный и сертифицированный учебный центр, работающий с 2021 года.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Frequently asked questions section ends here -->
 
 	<!-- Footer Section Goes Here -->
 	<footer>
@@ -204,7 +423,8 @@
 			</div>	
 			<div class="parent">
 				<div class="child">
-					<h2>LOGO</h2>
+					<!-- <h2>LOGO</h2> -->
+					<img src="assets/img/logo.png" width="100%">
 				</div>
 				<div class="child">
 					<h1>СВЯЗАТЬСЯ</h1>
@@ -217,6 +437,31 @@
 		</div>
 	</footer>
 	<!-- Footer Section Ends Here -->
+
+	<!-- Social Media Section Goes Here -->
+	<section id="social">
+		<div class="container">
+			<div class="parent">
+				<div class="child">
+					<a href="https://t.me/@academy_arabic">
+						<i class='bx bxl-telegram' ></i>
+						
+					</a>
+				</div>
+				<div class="child">
+					<a href="https://instagram.com/academy_arabic">
+						<i class='bx bxl-instagram-alt' ></i>
+					</a>
+				</div>
+				<div class="child">
+					<a href="https://www.facebook.com/profile.php?id=100092454534849&mibextid=LQQJ4d">
+						<i class='bx bxl-facebook-circle'></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Social Media Section Ends Here -->
 
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -276,6 +521,172 @@
 			}
 		}
 	</script>
+
+	<script type="text/javascript">
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var content = this.nextElementSibling;
+		    if (content.style.maxHeight){
+		      content.style.maxHeight = null;
+		    } else {
+		      content.style.maxHeight = content.scrollHeight + "px";
+		    }
+		  });
+		}
+	</script>
+
+	<!--- Background Section Animation Goes Here -->
+	<!-- <div class="lines">
+	  <div class="line"></div>
+	  <div class="line"></div>
+	  <div class="line"></div>
+	  <div class="line"></div>
+	</div> -->
+	<!--- Background Section Animation Ends Here -->
+
+	<!-- Loading Page Section Goes Here -->
+	<section id="loading">
+		<div class="book">
+		  <div class="inner">
+		    <div class="left"></div>
+		    <div class="middle"></div>
+		    <div class="right"></div>
+		  </div>
+		  <ul>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		  </ul>
+		</div>
+	</section>
+	<!-- Loading Page Section Ends Here -->
+
+
+ 	<!-- Swiper JS -->
+  	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
+	<script>
+	    var swiper = new Swiper(".mySwiper", {
+	      effect: "coverflow",
+	      grabCursor: true,
+	      centeredSlides: true,
+	      slidesPerView: "auto",
+	      coverflowEffect: {
+	        rotate: 50,
+	        stretch: 0,
+	        depth: 100,
+	        modifier: 1,
+	        slideShadows: true,
+	      },
+	      pagination: {
+	        el: ".swiper-pagination",
+	      },
+	    });
+	  </script>
+
+	  <!-- The Modal -->
+		<div id="myModal" class="modal">
+		  <!-- Modal content -->
+		  <div class="modal-content">
+		    <div class="modal-header">
+		      <span class="close">&times;</span>
+		      <h2>Оставь номер телефона и мы свяжемся</h2>
+		    </div>
+		    <div class="modal-body">
+		      <div class="parent">
+		      	<div class="child">
+		      		<h1 class="title">Оставь Контакты</h1>
+		      		<br>
+		      		<p>Приветствуем вас в мире технологий и обучения! Если вы готовы начать свое увлекательное путешествие в сфере <b>IT и киберпространства</b>, то <b>ENCODE SCHOOL</b> - ваш идеальный партнер. Мы верим, что знание кода - это ключ к созданию будущего.</p>
+		      	</div>
+		      	<div class="child">
+		      		<form>
+				      	<div class="wrapper">
+				      		<input id="phone" type="text" placeholder="Телефон" name="">
+				      		<input id="name" type="text" placeholder="Имя" name="">
+				      	</div>
+				      	<div class="wrapper">
+				      		<button class="submit-btn">Запросить Звонок <i class='bx bx-phone-call' ></i></button>
+				      	</div>
+				     </form>
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<script>
+			// Get the modal
+			var modal = document.getElementById("myModal");
+
+			// Get the button that opens the modal
+			var btn = document.querySelector(".myBtn");
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() {
+			  modal.style.display = "none";
+			}
+
+			var panel = document.querySelector('.panel-list');
+
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+			  if (event.target == modal) {
+			    modal.style.display = "none";
+			  }
+
+			  if (event.target.classList.contains('myBtn')) {
+			  	modal.style.display = "block";
+			  }
+
+			  if (event.target.classList.contains('bx-menu')) {
+				panel.style.left = '0';
+			  } else {
+				panel.style.left = '-100%';
+			  }
+			}
+		</script>
+
+		<script type="text/javascript">
+			const preloader = document.querySelector('#loading');
+			const fadeEffect = setInterval(() => {
+			  // if we don't set opacity 1 in CSS, then
+			  // it will be equaled to "" -- that's why
+			  // we check it, and if so, set opacity to 1
+			  if (!preloader.style.opacity) {
+			    preloader.style.opacity = 1;
+			  }
+			  if (preloader.style.opacity > 0) {
+			    preloader.style.opacity -= 0.1;
+			  } else {
+			    clearInterval(fadeEffect);
+			  }
+			}, 700);
+			window.addEventListener('load', fadeEffect);
+		</script>
 
 
 </body>
