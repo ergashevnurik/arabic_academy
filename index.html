@@ -261,31 +261,16 @@
 				  <div class="swiper mySwiper">
 				    <div class="swiper-wrapper">
 				      <div class="swiper-slide">
-				        <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+				        <img src="assets/img/chorsu.jpg" />
 				      </div>
 				      <div class="swiper-slide">
-				        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+				        <img src="assets/img/chilonzor.jpg" />
 				      </div>
 				      <div class="swiper-slide">
-				        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+				        <img src="assets/img/chorsu.jpg" />
 				      </div>
 				      <div class="swiper-slide">
-				        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-				      </div>
-				      <div class="swiper-slide">
-				        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-				      </div>
-				      <div class="swiper-slide">
-				        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-				      </div>
-				      <div class="swiper-slide">
-				        <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-				      </div>
-				      <div class="swiper-slide">
-				        <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-				      </div>
-				      <div class="swiper-slide">
-				        <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+				        <img src="assets/img/chilonzor.jpg" />
 				      </div>
 				    </div>
 				    <!-- <div class="swiper-pagination"></div> -->
@@ -681,10 +666,11 @@
 			  }
 			  if (preloader.style.opacity > 0) {
 			    preloader.style.opacity -= 0.1;
+			    preloader.style.display = 'none';
 			  } else {
 			    clearInterval(fadeEffect);
 			  }
-			}, 700);
+			}, 10000);
 			window.addEventListener('load', fadeEffect);
 		</script>
 
